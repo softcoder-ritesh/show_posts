@@ -1,16 +1,9 @@
-# show_posts
+show_posts
+show_posts is a Flutter app that displays a list of posts with a timer for each post. The app allows users to mark posts as read by tapping on them, which changes the background color of the post. Additionally, the app ensures that the timer continues to count only when the post is visible on the screen.
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Features
+Displays a list of posts with titles and descriptions.
+Timer for each post that starts when the post is visible.
+When a post is tapped, it is marked as read, and the background color changes to white.
+A detailed view of the post is shown when tapped.
+Timer pauses when the post goes out of view or when navigating to the post detail screen.
